@@ -14,22 +14,27 @@
 </head>
 
 <body>
-    <header>
-        <div class="links">
+    <header class="head">
+        <div id="links">
             <a href="index.html">Google Search</a>
             <a href="advanced.html">Advanced Search</a>
         </div>
     </header>
-    <div class="main">
-        <img src="img.png" class="img-fluid" alt="Responsive Image" width="450" height="170"/>
-        <form action="https://google.com/search">
-            <div class="inputfield">
-                <i class="fas fa-search" style="color: #9aa0a6;"></i>
+    <div id="main">
+        <div id="image">
+            <img src="img.png" />
+
+        </div>
+        <form action="https://google.com/images">
+            <div id="inputfield">
+                <i class="fas fa-search fa-sm" style="color: #9aa0a6;"></i>
                 <input type="text" name="q">
+                <button type="submit" id="buttonicon">
+                    <i class="fas fa-search" style="color: #4285f4;"></i>
+                </button>
             </div>
-            <div class="button">
+            <div id="button">
                 <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
             </div>
         </form>
     </div>
