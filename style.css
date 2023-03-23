@@ -31,7 +31,7 @@ body {
 }
 
 #main {
-    height: 60vh;
+    height: 63vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,13 +39,13 @@ body {
 }
 
 #main #inputfield {
-    border: 1px solid #cfd1d5;
-    height: 20px;
+    border: 1px solid #dddfe3;
+    height: 5px;
     border-radius: 24px;
     display: flex;
     align-items: center;
     padding: 20px;
-    width: 600px;
+    width: 542px;
     margin-top: 20px;
 }
 
@@ -53,16 +53,12 @@ body {
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
-#main #inputfield i {
-    color: lightgray;
-}
-
 #main #inputfield input {
     width: 100%;
     border: none;
     box-shadow: none !important;
     outline: none !important;
-    margin-left: 7px;
+    margin-left: 15px;
     font-size: 15px;
 }
 
@@ -70,6 +66,9 @@ img {
     max-width: 55%;
     height: auto;
     margin-left: 22%;
+}
+p{
+    color: #4285f4;
 }
 
 #main #button {
@@ -80,18 +79,19 @@ img {
 #main #button input {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 14px;
-    margin: 20px 9px;
-    padding: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 20px 8px;
+    padding: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
     text-align: center;
     cursor: pointer;
 }
 
 #main #button input:hover {
-    box-shadow: 0 1px 3px rgba(32, 33, 36, 0.28);
+    border: 1px solid #dddfe3;
+    box-shadow: 0 1px 4px rgba(32, 33, 36, 0.28);
 }
 
 #main #buttonicon {

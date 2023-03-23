@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.head #links {
+    display: flex;
+    margin-right: 30px;
+}
+
+.head #links a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.head #links a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+    float:top;
+}
