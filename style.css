@@ -12,7 +12,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
 }
 
 .head #links {
@@ -112,5 +111,9 @@ p {
 
     #main #button {
         display: none;
+    }
+
+    .head {
+        justify-content: center;
     }
 }
