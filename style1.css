@@ -31,7 +31,6 @@ body {
 }
 
 #main {
-    height: 63vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,18 +39,61 @@ body {
 img {
     position: absolute;
     top: 0;
-    padding:20px;
+    padding: 20px;
     max-width: 5.8%;
     height: auto;
 }
 
-#main .adv{
-    color:#d93025;
+#main .adv {
+    color: #d93025;
+    font-size: 126%;
+    padding: 40px;
+    margin-left: 5px;
+    margin-bottom: -15px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: default;
 }
+
+hr {
+    background-color: #dddfe3;
+    height: 0.1px;
+    border: none;
+}
+
+#main .inputone .textdes {
+    cursor: default;
+}
+
+.inputone {
+    display: flex;
+    /* align-items: center; */
+    margin: 45px 2% 0 45px;
+}
+
 @media screen and (max-width: 600px) {
 
-    img,#main #todo,#main .tododes{
-        display:none;
+    img,
+    #main #todo,
+    #main .tododes {
+        display: none;
     }
-    
+
+    #main .adv {
+        position: absolute;
+        top: 0;
+        padding: 20px;
+    }
+
+    .head{
+        height: 9vh;
+        background-color: #dddfe3;
+    }
+    .inputone{
+        flex-direction: column;
+    }
+
+
 }
