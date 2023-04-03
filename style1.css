@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.head #links {
+    display: flex;
+    margin-right: 30px;
+}
+
+.head #links a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.head #links a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    max-width: 5.8%;
+    height: auto;
+}
+
+#main .adv {
+    color: #d93025;
+    font-size: 126%;
+    padding: 40px;
+    margin-left: 5px;
+    margin-bottom: -15px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+hr {
+    background-color: #dddfe3;
+    height: 0.1px;
+    border: none;
+}
+
+.inputone {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 16px 2% 0 45px;
+}
+
+#main .inputone .textdesheading {
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #333;
+    padding-top: 25px;
+}
+
+#main .inputone .textdes {
+    cursor: default;
+    width: 200px;
+    font-size: 13px;
+}
+
+#main .inputone .inputfield {
+    min-width: 167px;
+    width: 50%;
+}
+
+#main .inputone .inputfield input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+#main .inputone .tododesheading {
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-top: 25px;
+}
+
+#main .inputone .tododes {
+    width: 32%;
+    min-width: 16px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 30px;
+}
+
+span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+#main .inputone .button {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main .inputone .button input {
+    background-color: #4d90fe;
+    color: #fff;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    
+}
+
+#main .inputone .button input:hover {
+    background-color: #4787ed;   
+}
+
+@media screen and (max-width: 600px) {
+
+    img,
+    #main #todo,
+    #main .tododes,
+    #main .inputone .tododesheading {
+        display: none;
+    }
+
+    #main .adv {
+        position: absolute;
+        top: 0;
+        padding: 20px;
+    }
+
+    .head {
+        height: 9vh;
+        background-color: #dddfe3;
+    }
+
+    .inputone {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #main .inputone .inputfield {
+        width: 76%;
+    }
+}

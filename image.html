@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-0</title>
+    <title>Google Images</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
@@ -14,22 +14,24 @@
 <body>
     <header class="head">
         <div id="links">
-            <a href="image.html">Images Search</a>
+            <a href="index.html">Google Search</a>
             <a href="advanced.html">Advanced Search</a>
         </div>
     </header>
     <div id="main">
         <div>
-            <img src="img.png"/>
+            <img src="img1.png" />
         </div>
-        <form action="https://google.com/search">
+        <form action="https://google.com/images">
             <div id="inputfield">
-                <i class="fas fa-search" style="color: #9aa0a6;"></i>
-                <input type="text" name="q" autofocus>
+                <i class="fas fa-search fa-sm" style="color: #9aa0a6;"></i>
+                <input type="text" name="q">
+                <button type="submit" id="buttonicon">
+                    <i class="fas fa-search" style="color: #4285f4;"></i>
+                </button>
             </div>
             <div id="button">
-                <input type="submit" value="Google Search" name="btnK">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                <input type="submit" value="Google Search">
             </div>
         </form>
     </div>
