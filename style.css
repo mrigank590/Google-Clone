@@ -105,8 +105,8 @@ p {
 @media screen and (max-width: 600px) {
 
     #main #inputfield {
-        width: 122%;
-        margin-left: -20%;
+        width: 110%;
+        margin-left: -12%;
     }
 
     #main #button {
